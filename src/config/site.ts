@@ -1,0 +1,1 @@
+export const site={name:'XYJASH Tools',domain:'xyjash.top',description:'Fast, private online utilities for developers, text, images, the web, and Minecraft.',logo:'XY/',social:{},ads:{enabled:false,provider:'',publisherId:''},analyticsId:''};

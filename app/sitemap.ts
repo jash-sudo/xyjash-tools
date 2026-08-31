@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next';import {tools} from '@/data/tools';const root='https://xyjash.top';export default function sitemap():MetadataRoute.Sitemap{return [{url:root,lastModified:new Date()},...tools.map(t=>({url:`${root}/tools/${t.id}`,lastModified:new Date()}))]}
